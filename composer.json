@@ -11,6 +11,12 @@
     "sort-packages": true
   },
   "require": {
+    "php": "^8.2",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-xml": "*",
+    "ext-zip": "*",
+
     "beberlei/assert": "^3.3",
     "brianium/paratest": "^7",
     "clue/commander": "^v1.3.0",
