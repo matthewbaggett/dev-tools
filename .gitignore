@@ -1,3 +1,4 @@
 /vendor/
 /.idea
 /.github/act.secrets
+/composer.lock
