@@ -34,7 +34,6 @@
     "phpstan/phpstan-symfony": "^1",
     "phpunit/phpunit": "^10",
     "slam/phpstan-extensions": "^6",
-    "thecodingmachine/phpstan-strict-rules": "^1",
-    "wyrihaximus/html-compress": "^4.1"
+    "thecodingmachine/phpstan-strict-rules": "^1"
   }
 }
