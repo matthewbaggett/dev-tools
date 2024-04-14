@@ -16,6 +16,9 @@
     "ext-mbstring": "*",
     "ext-xml": "*",
     "ext-zip": "*",
+    "ext-dom": "*",
+    "ext-tokenizer": "*",
+    "ext-xmlwriter": "*",
 
     "beberlei/assert": "^3.3",
     "brianium/paratest": "^7",
