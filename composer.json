@@ -15,6 +15,7 @@
     "clue/commander": "^v1.3.0",
     "ergebnis/phpunit-slow-test-detector": "^2",
     "estahn/phpunit-json-assertions": "^4",
+    "friendsofphp/php-cs-fixer": "^3.53",
     "jc21/clitable": "^1.2",
     "php-coveralls/php-coveralls": "^2.1",
     "phpstan/phpstan": "^1",
