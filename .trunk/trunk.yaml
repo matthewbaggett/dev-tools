@@ -2,16 +2,17 @@
 # To learn more about the format of this file, see https://docs.trunk.io/reference/trunk-yaml
 version: 0.1
 cli:
-  version: 1.22.1
+  version: 1.22.2
 # Trunk provides extensibility via plugins. (https://docs.trunk.io/plugins)
 plugins:
   sources:
     - id: trunk
-      ref: v1.5.0
+      ref: v1.6.0
       uri: https://github.com/trunk-io/plugins
 # Many linters and tools depend on runtimes - configure them here. (https://docs.trunk.io/runtimes)
 runtimes:
   enabled:
+    - php@>=8.0.0
     - go@1.21.0
     - node@18.12.1
     - python@3.10.8
@@ -22,13 +23,13 @@ lint:
     - terrascan
     - trivy
   enabled:
-    - gitleaks@8.18.2
-    - markdownlint@0.40.0
+    - gitleaks@8.18.4
+    - markdownlint@0.41.0
     - taplo@0.8.1
-    - actionlint@1.7.0
-    - checkov@3.2.92
+    - actionlint@1.7.1
+    - checkov@3.2.161
     - git-diff-check
-    - prettier@3.2.5
+    - prettier@3.3.2
     - yamllint@1.35.1
   definitions:
     - name: markdownlint
@@ -56,6 +57,6 @@ tools:
     - hadolint@2.12.0
     - svgo@3.3.2
     - tofu@1.7.1
-    - trunk-toolbox@0.3.1
-    - tflint@0.51.1
+    - trunk-toolbox@0.3.2
+    - tflint@0.51.2
     - terraform@1.1.4
